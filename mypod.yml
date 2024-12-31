@@ -1,0 +1,10 @@
+kind: Pod
+apiVersion: v1
+metadata:
+  name: myfirstpod
+spec:
+  containers:
+  - image: dekstro/myapp
+    name: myfirstcontainer
+    ports:
+    - containerPort: 8501
